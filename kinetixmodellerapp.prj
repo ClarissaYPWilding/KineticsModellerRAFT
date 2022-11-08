@@ -1,0 +1,108 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4091516055" file="C:\Users\pmcypw\MATLAB Drive\Insilico_predictor\kinetixmodellerapp.prj" location="C:\Users\pmcypw\MATLAB Drive\Insilico_predictor" name="kinetixmodellerapp" target="target.mlapps" target-name="Package App">
+    <param.appname>kinetixmodellerapp</param.appname>
+    <param.authnamewatermark>Clarissa Wilding</param.authnamewatermark>
+    <param.email>pmcypw@leeds.ac.uk</param.email>
+    <param.company>university of leeds</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>RAFT polymerisation modelling</param.description>
+    <param.screenshot>C:\Users\pmcypw\AppData\Local\Temp\tp03ffd03b_ef93_4388_816e_71a5efe07921.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>d67b159a-88aa-400d-bb00-cdf6e725be49</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\insilicosteadystatekineticx.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\pmcypw\MATLAB Drive\customcolormap.m</file>
+      <file>C:\Users\pmcypw\MATLAB Drive\customcolormap_preset.m</file>
+      <file>${PROJECT_ROOT}\Conditions\decompconst.m</file>
+      <file>${PROJECT_ROOT}\Conditions\mConcneat.m</file>
+      <file>${PROJECT_ROOT}\Dispersity_Calculator.m</file>
+      <file>${PROJECT_ROOT}\Initialisationsteadstate.m</file>
+      <file>${PROJECT_ROOT}\Initialisationsteadstate2.m</file>
+      <file>${PROJECT_ROOT}\Initialisationsteadstate3.m</file>
+      <file>${PROJECT_ROOT}\kineticgeneratorfunct_RT_Ini.m</file>
+      <file>${PROJECT_ROOT}\kineticgeneratorfunct_RT_T.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\pmcypw\MATLAB Drive" name="Insilico_predictor" optional="false">C:\Users\pmcypw\MATLAB Drive\Insilico_predictor</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
